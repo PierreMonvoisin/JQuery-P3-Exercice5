@@ -32,6 +32,7 @@ $(function() {
       // bas
       $('#carre').animate({bottom: '-=20px'}, function(){
         if (windowHeight <= ($('#carre').offset().top) + $('#carre').height()){$('#carre').animate({top: '0px'}, 'fast')};
+        console.log(($('#carre').offset().top) + $('#carre').height())
       });
     }
   });
